@@ -1,0 +1,54 @@
+.PomodoroContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#PomodoroContainer-TimeControl {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 50vw;
+	padding: 40px;
+}
+
+#PomodoroContainer-timerContainer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+#time-left {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-weight: 100;
+	font-size: 80px;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+#PomodoroContainer-buttons button {
+	margin: 0.5em;
+	font-size: 0.8em;
+	padding: 1em;
+}
+#reset {
+	color: #435e91;
+}
+#start_stop {
+	width: 6em;
+	font-weight: bolder;
+}
+
+.Play {
+	color: #7cb076;
+}
+.Pause {
+	color: #b07676;
+}
