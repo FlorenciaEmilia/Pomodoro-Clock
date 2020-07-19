@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #dde1e7;
+	font-family: 'Roboto', sans-serif;
+	color: #435e91;
+}
+
+button {
+	background-color: #dde1e7;
+	border: none;
+	box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+	border-radius: 0.3em;
+	outline: none;
+}
+
+button:active {
+	background-color: #c7cbd4;
+	box-shadow: inset -3px -3px 7px rgba(94, 104, 121, .05), 3px 3px 5px #ffffff73;
+}
